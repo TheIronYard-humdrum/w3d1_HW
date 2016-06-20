@@ -1,0 +1,19 @@
+@mixin background-color() {
+  background-color: #000
+}
+
+
+@mixin titillim() {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#clock-box {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  @include titillim
+  font-size: 10em;
+  margin-top: 20%;
+}

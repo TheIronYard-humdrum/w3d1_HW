@@ -2,17 +2,11 @@
 //create h1 class=clock
 
 var clock = document.getElementById("time")
-clock.innerHTML = "BOO"
-color = "000000"
 
 var changeColor = function() {
-  color = String((Number(color) + 1))
-  while (color.length < 6) {
-    color = 0 + color
-  }
-  if (color == "1000000") {
-    color = "000000"
-  }
+  var time = new Date();
+  time = Number(time).toString(16);
+  color = time.slice(5, 11)
   clock.innerHTML = ("#" + color)
   document.querySelector("body").style.backgroundColor = ("#" + color)
 }
