@@ -1,0 +1,11 @@
+* {
+  background-color: #000; }
+
+.clock-box {
+  text-align: center; }
+
+h1 {
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 10em;
+  margin-top: 20%; }
