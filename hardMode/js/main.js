@@ -41,7 +41,7 @@ var changeColor = function() {
   hexsecs = seconds.toString(16);
 
   var clock = document.getElementById("time");
-  var clockTime = "#" + hours + minutes + seconds
+  var clockTime = hexhours + hexmins + hexsecs
   clock.innerHTML = clockTime;
   background.style.backgroundColor = "#" + hexhours + hexmins + hexsecs;
 }
