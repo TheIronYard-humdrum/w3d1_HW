@@ -1,4 +1,5 @@
 var background = document.querySelector("body");
+
 var changeColor = function() {
   
   var now = new Date();
