@@ -1,8 +1,6 @@
 //create div class=container
 //create h1 class=clock
 
-
-
 var clock = document.getElementById("time");
 var checkTime = function() {
   var now = new Date();
